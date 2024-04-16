@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    background-image: linear-gradient(to right, #5e81ac, #a3be8c);
+    background-size: 200% 100%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .mdi--minecraft {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M4 2h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2m2 4v4h4v2H8v6h2v-2h4v2h2v-6h-2v-2h4V6h-4v4h-4V6z'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position:relative;
+
+    vertical-align: -10%; /* Move the icon down a little */
+}
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  p {
+    color: #666;
+    text-align: center;
+  }
+  .social-icons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+    transition: transform 0.3s ease;
+  }
+  .social-icons a:hover {
+    transform: scale(1.1);
+  }
+  button#language-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 50%; /* جعل الحواف شبه دائرية */
+    cursor: pointer;
+    outline: none; /* إزالة الخط الخارجي الافتراضي */
+  }
+  
+  button#language-btn:focus {
+    outline: none; /* إزالة الخط الداخلي عند التركيز */
+  }
+  
+  button#language-btn:active {
+    transform: scale(0.95); /* إضافة تحريك تصغير عند النقر */
+  }
+  
