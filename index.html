@@ -1,52 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Short Break</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #1f1f1f; /* Background hex color */
-            font-family: 'Minecraftia', sans-serif; /* Minecraftia font */
-            color: white; /* Text color */
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        .container {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-        }
-        footer {
-            background-color: #333; /* Footer background color */
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-            width: 100%;
-        }
-        footer a {
-            color: white;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Goodbye Message</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="https://www.gamergeeks.net/apps/minecraft/web-developer-tools/css-blocks-and-entities/icons-minecraft-0.4.css">
+
 </head>
 <body>
-    <div class="container">
-        <p>Hey guys, I've decided to take a short break from some of my personal accounts to focus more on preparing for my achievement test. I might be away for a short while, but I promise to come back afterwards and share with you all the updates. Thanks for your support and understanding, and I wish everyone success in their studies and lives. &lt;3</p>
-        <p>- Turki</p>
+  <button id="language-btn" onclick="changeLanguage()">العربية</button>
+  <div class="container">
+    <h1 id="message">it's Time to Take Break.</h1>
+    <p id="Description">Hello, I've decided to take a short break to focus more on preparing for the GAT test. I may be away for a long time, but I promise to come back afterwards Soon. Thank you for your support and understanding, and I wish everyone success in their studies and lives. ❤️</p>
+    <div class="social-icons">
+      <a href="https://twitter.com/gha_"target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="https://instagram.com/ljzb" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://steamcommunity.com/id/TurkiALD" target="_blank"><i class="fab fa-steam-symbol"></i></a>
+      <a href="https://crafty.gg/@Tvrki" target="_blank"><i class="mdi--minecraft"></i></a>
+
+
+
     </div>
-    <footer>
-        <p>&copy; Turki</p>
-        <a href="https://twitter.com/gha_" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="https://instagram.com/ljzb" target="_blank"><i class="fa fa-instagram"></i></a>
-    </footer>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
